@@ -1,0 +1,11 @@
+your_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('HOST') }}"
+      user: "{{ env_var('USER') }}"
+      password: "{{ env_var('PASSWORD') }}"
+      port: 5432
+      database: "{{ env_var('DATABASE') }}"
+      schema: dbt_your_profile
