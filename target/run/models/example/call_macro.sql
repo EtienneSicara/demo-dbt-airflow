@@ -1,0 +1,1 @@
+select 'col1'::text || 'col2'::text || 'col3'::text as concatenation from "my_db"."schema"."my_data"

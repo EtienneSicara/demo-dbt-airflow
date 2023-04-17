@@ -1,0 +1,1 @@
+select {{ concat(["col1", "col2", "col3"], concatenation) }} from {{ source("schema", "my_data") }}
