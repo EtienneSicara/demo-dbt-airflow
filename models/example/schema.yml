@@ -28,3 +28,6 @@ models:
 
   - name: my_third_dbt_model
     description: "A starter dbt model"
+
+  - name: call_macro
+    description: "A starter dbt model"
