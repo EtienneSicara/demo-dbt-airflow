@@ -1,6 +1,12 @@
 
 version: 2
 
+sources:
+  - name: schema
+    schema: schema
+    tables:
+      - name: my_data
+
 models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
@@ -19,3 +25,6 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: my_third_dbt_model
+    description: "A starter dbt model"
